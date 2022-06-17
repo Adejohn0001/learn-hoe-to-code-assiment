@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 9px;
+  background: linear-gradient(hsl(0, 100%, 74%, 0.7), hsl(0, 100%, 74%, 0.7)),
+    url("bg-intro-desktop.png");
+  background-size: cover;
+  font-size: 16px;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+h1 {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+p {
+  font-weight: 400;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 7em 8em 0em 8em;
+  flex-wrap: wrap;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex: 80%;
+}
+.container1 {
+  flex: 20%;
+  padding-right: 80px;
+  margin-top: 7em;
+}
+
+.form-container2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2em 3em;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px hsl(249, 10%, 26%);
+}
+.bonus-offer {
+  background-color: hsl(248, 32%, 49%);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px hsl(249, 10%, 26%);
+}
+
+input {
+  padding: 9px;
+}
+input:hover {
+  border: 2px solid black;
+  font-weight: 700;
+}
+button {
+  background-color: hsl(154, 59%, 51%);
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 2px 2px 5px hsl(249, 10%, 26%);
+}
+button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.agreement {
+  color: hsl(246, 25%, 77%);
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+  margin: 0px 12px;
+}
+.agreement a {
+  color: hsl(0, 100%, 74%);
+}
+
+.error-img{
+  width: 4%;
+  height: 5%;
+  align-self: flex-end;
+  margin-top: -37px;
+  visibility: hidden;
+}
+.error-el{
+  color: red;
+  font-size: 13px;
+  margin-top: 1em;
+  visibility: hidden;
+}
+
+
+
+
+@media (max-width: 375px) {
+  body {
+    font-size: 9px;
+    background: linear-gradient(hsl(0, 100%, 74%, 0.7), hsl(0, 100%, 74%, 0.7)),
+      url("bg-intro-mobile.png");
+    background-size: cover;
+    font-size: 16px;
+    font-family: "Big Shoulders Display", cursive;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  p {
+    font-weight: 400;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    margin-bottom: 3em;
+  }
+
+  main {
+    flex-direction: column;
+    padding: 0em;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    flex: 80%;
+    margin: 1px 0px;
+  }
+  .container1 {
+    flex: 20%;
+    padding: 0px 15px;
+    margin-top: 5em;
+    margin-bottom: 4em;
+  }
+
+  .form-container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2em 2em;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px hsl(249, 10%, 26%);
+  }
+  .bonus-offer {
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px 40px;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px hsl(249, 10%, 26%);
+  }
+
+  input {
+    padding: 9px;
+  }
+  input:hover {
+    border: 2px solid black;
+    font-weight: 700;
+  }
+  button {
+    background-color: hsl(154, 59%, 51%);
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px hsl(249, 10%, 26%);
+  }
+  button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+
+  .agreement {
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    margin: 0px 12px;
+  }
+  .agreement a {
+    color: hsl(0, 100%, 74%);
+  }
+}

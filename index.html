@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Learn Code landing page</title>
+  </head>
+  <body>
+    <main>
+      <!--first container-->
+      <div class="container1">
+        <h1>
+          Learn to code by <br />
+          watching others
+        </h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+
+      <!-- for my second container which consist of the free trial and form-->
+      <div class="container2">
+        <!--for the offer-->
+        <div class="bonus-offer">
+          <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+        </div>
+
+        <!--for the form to fill-->
+        <div class="form-container2">
+          <form  name="forms-input" action="#" id="form">
+            <input
+              type="text"
+              id="firstname"
+              name="text"
+              placeholder="First Name"
+              style="margin-bottom: 1em"
+              maxlength="
+                  12"
+              minlength="3"
+            />
+            <img src="icon-error.svg" alt="" class="error-img">
+            <p class="error-el">error image</p>
+            <input
+              type="text"
+              id="lastname"
+              name="text"
+              placeholder="Last Name"
+              style="margin-bottom: 1em"
+              maxlength="
+                  12"
+              minlength="3"
+            />
+            <img src="icon-error.svg" alt="" class="error-img">
+            <p class="error-el">error image</p>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              style="margin-bottom: 1em"
+            />
+            <img src="icon-error.svg" alt="" class="error-img">
+            <p class="error-el">error image</p>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              style="margin-bottom: 1em"
+              pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+            />
+            <img src="icon-error.svg" alt="" class="error-img">
+            <p class="error-el">error image</p>
+            <button><a href="#"> Claim Your Free Trial </a></button>
+            <p class="agreement">
+              By clicking the button, you are agreeing to our
+              <a>Terms and Services</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
