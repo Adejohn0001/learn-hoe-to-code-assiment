@@ -115,7 +115,8 @@ button:hover {
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
+  /*was unable to get a 375px on my system so i had to increase the media query so it can also be responsive on a screen size of 375px*/
   body {
     font-size: 9px;
     background: linear-gradient(hsl(0, 100%, 74%, 0.7), hsl(0, 100%, 74%, 0.7)),
